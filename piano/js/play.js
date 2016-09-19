@@ -134,6 +134,7 @@ var playState={
 
 	playerDie: function(){
 		game.state.start('main');
+
 		this.deadSound.play();
 	},
 
@@ -213,7 +214,7 @@ var playState={
 		this.emitter.x=this.player.x;
 		this.emitter.y=this.player.y;
 		this.emitter.start(true,800,null,15);
-		game.time.events.add(1000, this.startMenu, this);
+		game.time.events.add(1000, this.scoreMenu, this);
 		game.camera.shake(0.02, 300);
 	//	game.state.start('menu');
 
@@ -221,9 +222,9 @@ var playState={
 
 	},
 
-	startMenu: function(){
+	scoreMenu: function(){
 
-		game.state.start('menu');
+		game.state.start('score');
 	},
 
 };
