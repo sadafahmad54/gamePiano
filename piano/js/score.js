@@ -7,10 +7,11 @@ var scoreState={
 	var nameLabel= game.add.text(game.width/2, game.height-450, 'YOU SCORED', {font: '30px Calibri', fill:'#000000'});
 	nameLabel.anchor.setTo(0.5, 2);
 
-	var sprite= game.add.sprite(game.width/2, game.height-340, 'score');
-		sprite.anchor.setTo(0.5,2);
-		var textLabel=game.add.text(0.5,2,game.global.score,{font: '30px Calibri', fill:'#ffffff'});
-		sprite.addChild(textLabel);
+	// var sprite= game.add.sprite(game.width/2, game.height-340, 'score');
+	// 	sprite.anchor.setTo(0.5,2);
+		var textLabel=game.add.text(game.width/2,game.height-340,game.global.score,{font: '30px Calibri', fill:'#ffffff', backgroundColor: '#ff0000'});
+		textLabel.anchor.set(0.5,0.5);
+		// sprite.addChild(textLabel);
 		 
 		var nameLabel= game.add.text(game.width/2, game.height-180, 'SONG: HELLO', {font: '30px Calibri', fill:'#000000'});
 	nameLabel.anchor.setTo(0.5, 3);
@@ -37,7 +38,7 @@ var scoreState={
 			console.log("..start");
 			//game.stage.image=('cart', 'assets/cart.png');	
 			//game.stage.image=('settings' , 'assets/settings.png');	
-			game.state.start('menu');
+			game.state.start('setting');
 		},
 
 

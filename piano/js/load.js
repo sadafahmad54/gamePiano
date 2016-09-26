@@ -24,6 +24,14 @@ var loadState={
 		game.load.image('score', 'assets/score.png');
 		game.load.image('story', 'assets/story.png');
 		game.load.image('skip', 'assets/skip.png');
+		game.load.image('bubble', 'assets/bubble.png');
+		game.load.image('menu', 'assets/menu.png');
+		game.load.image('rgame', 'assets/rgame.png');
+		game.load.image('rmenu', 'assets/rmenu.png');
+		game.load.image('tile', 'assets/tile.jpg');
+		game.load.image('go', 'assets/go.png');
+		game.load.image('alien', 'assets/alien.png');
+		game.load.image('line', 'assets/line.png');
 
 
 		game.load.audio('jump', ['assets/jump.ogg', 'assets/jump.mp3']);

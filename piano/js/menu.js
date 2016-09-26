@@ -60,7 +60,7 @@ var menuState={
 
 		setting: function(){
 			
-			game.state.start('menu');
+			game.state.start('setting');
 		},
 
 
