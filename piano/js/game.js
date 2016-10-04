@@ -5,7 +5,7 @@
 var game = new Phaser.Game(500, 600, Phaser.AUTO, "gameDiv");
 
 	game.global= {
-	score:0
+	score:0000
 };
 	game.state.add('boot', bootState);
 	

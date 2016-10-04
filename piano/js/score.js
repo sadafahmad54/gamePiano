@@ -9,7 +9,7 @@ var scoreState={
 
 	// var sprite= game.add.sprite(game.width/2, game.height-340, 'score');
 	// 	sprite.anchor.setTo(0.5,2);
-		var textLabel=game.add.text(game.width/2,game.height-340,game.global.score,{font: '30px Calibri', fill:'#ffffff', backgroundColor: '#ff0000'});
+		var textLabel=game.add.text(game.width/2,game.height-410,game.global.score,{font: '30px Calibri', fill:'#ffffff', backgroundColor: '#ff0000'});
 		textLabel.anchor.set(0.5,0.5);
 		// sprite.addChild(textLabel);
 		 

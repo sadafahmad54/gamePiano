@@ -32,11 +32,32 @@ var loadState={
 		game.load.image('go', 'assets/go.png');
 		game.load.image('alien', 'assets/alien.png');
 		game.load.image('line', 'assets/line.png');
+		game.load.image('up', 'assets/up.png');
+		game.load.image('down', 'assets/down.png');
+		game.load.image('sprite1', 'assets/sprite1.png');
+
 
 
 		game.load.audio('jump', ['assets/jump.ogg', 'assets/jump.mp3']);
 		game.load.audio('coin', ['assets/coin.ogg', 'assets/coin.mp3']);
 		game.load.audio('dead', ['assets/dead.ogg', 'assets/dead.mp3']);
+		game.load.audio('sprite1', 'assets/sprite1.mp3');
+		game.load.audio('sprite2', 'assets/sprite2.mp3');
+		game.load.audio('sprite3', 'assets/sprite3.mp3');
+		game.load.audio('sprite4', 'assets/sprite4.mp3');
+		game.load.audio('sprite11', 'assets/sprite11.mp3');
+		game.load.audio('sprite22', 'assets/sprite22.mp3');
+		game.load.audio('sprite33', 'assets/sprite33.mp3');
+		game.load.audio('sprite44', 'assets/sprite44.mp3');
+		game.load.audio('crash', 'assets/crash.mp3');
+
+
+
+
+
+
+
+
 	//	game.load.audio('music', ['assets/music.ogg', 'assets/music.mp3']);
 
 	    	game.load.image('pixel', 'assets/pixel.png');
