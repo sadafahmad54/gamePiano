@@ -34,7 +34,8 @@ var loadState={
 		game.load.image('line', 'assets/line.png');
 		game.load.image('up', 'assets/up.png');
 		game.load.image('down', 'assets/down.png');
-		game.load.image('sprite1', 'assets/sprite1.png');
+		game.load.image('down', 'assets/down.png');
+		game.load.image('wrongtile', 'assets/wrongtile.png');
 
 
 
